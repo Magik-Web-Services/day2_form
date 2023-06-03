@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Day 12</title>
+</head>
+
+<body>
+    <section class="form-container">
+        <form>
+            <!-- Heading -->
+            <h3>Contact us</h3>
+
+            <!-- first Name -->
+            <div class="Two_con">
+                <label class="subtitle" for="FName"> FName:</label>
+                <input id="FName" required class="data" placeholder="First Name" type="text" name="FName"
+                    name="FName" />
+            </div>
+            <!-- last Name -->
+            <div class="Two_con">
+                <label class="subtitle" for="LName"> LName:</label>
+                <input id="LName" required class="data" placeholder="Last Name" type="text" name="LName" name="LName" />
+            </div>
+            <!-- Email -->
+            <label class="subtitle" for="Email"> Email:</label>
+            <input id="Email" required class="data" placeholder="Enter Your Email" name="Email" type="email"
+                name="Email" />
+            <!-- Phone no -->
+            <label class="subtitle" for="phone"> Phone:</label>
+            <input id="phone" required class="data" placeholder="Enter Your Phone no" name="phone" type="tel"
+                name="phone" />
+            <!-- Address -->
+            <label class="subtitle" for="Address"> Addresss:</label>
+            <input id="Address" required class="data" placeholder="Enter Your Address" name="Address" type="text"
+                name="Address" />
+            <!-- Country -->
+            <div class="tree_con">
+                <label class="subtitle" for="Country"> Country:</label>
+                <input id="Country" required class="data" placeholder="Country" name="Country" type="text"
+                    name="Country" />
+            </div>
+            <!-- City -->
+            <div class="tree_con">
+                <label class="subtitle" for="City"> City:</label>
+                <input id="City" required class="data" placeholder="City" name="City" type="text" name="City" />
+            </div>
+            <!-- State -->
+            <div class="tree_con">
+                <label class="subtitle" for="State"> State:</label>
+                <input id="State" required class="data" placeholder="State" name="State" type="text" name="State" />
+            </div>
+            <!-- Gender -->
+            <div id="gender">
+                <label for="Gender"> Gender:</label>
+                <input type="radio" name="Gender" checked value="Male" id="Male" />
+                Male
+                <input type="radio" name="Gender" value="Female" id="Female" /> Female
+            </div>
+
+            <!-- TOS -->
+            <input class="Tos-checkbox" id="checkbox" required type="checkbox" name="TermsOfServiices" />
+            <p class="Tos-para">
+                I agree with the <a href="#"> terms of services</a>
+            </p>
+            <!-- Button -->
+            <input id="btn" type="submit" name="Contact us" value="Contact us" />
+        </form>
+    </section>
+
+    <section id="data_con">
+        <h2>Your Data</h2>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
