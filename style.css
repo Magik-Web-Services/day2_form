@@ -9,10 +9,50 @@ a {
     text-decoration: none;
 }
 
+/* iFame */
+.iframe-containter {
+    background-color: #f1ecec;
+    padding: 20px;
+}
+
+.iframe-containter h1 {
+    text-align: center;
+    font-size: 2.8em;
+    line-height: 1;
+}
+
+
+.iframe-containter h2 {
+    text-align: center;
+    font-size: 2.4em;
+    margin-bottom: 10px;
+}
+
+.iframe-containter .map {
+    min-width: 100%;
+    min-height: 330px;
+    margin-bottom: 15px;
+}
+
+.iframe-containter .video {
+    margin: 0 auto;
+    display: block;
+    min-width: 40vw;
+    height: 22.625vw;
+}
+
+@media screen and (max-width: 1445px) {
+    .iframe-containter .video {
+        width: 80vw;
+        height: 45.3125vw;
+    }
+}
+
 /* Form */
 
 .form-container {
     background-color: #f9fafb;
+    ;
     padding: 30px;
 }
 
@@ -34,33 +74,6 @@ a {
     margin-bottom: 15px;
     text-align: center;
     font-size: 2rem;
-}
-
-.Two_con {
-    display: inline-block;
-    width: 49.5%;
-}
-
-.tree_con {
-    display: inline-block;
-    width: 32.8%;
-}
-
-.tree_con .data {
-    width: 100%;
-}
-
-#gender {
-    margin: 1rem 0;
-    font-size: 18px;
-}
-
-#gender label {
-    margin-right: 1rem;
-}
-
-#gender label #Female {
-    margin-left: 0.5rem;
 }
 
 .form-container form .data {
@@ -104,36 +117,10 @@ a {
     color: #fffefe;
 }
 
-#data_con {
-    height: 100vh;
-}
-
-#data_con h2{
+.form-container form .logIn {
     text-align: center;
-    font-size: 2.8rem;
+    font-size: 1.3rem;
 }
-
-#data_con .data {
-    background-color: #f1e8ff;
-    width: 60%;
-    margin: 15px auto;
-    border-radius: 10px;
-    padding: 2rem;
-}
-
-#data_con .data .data_item{
-    display: inline-block;
-    font-size: 1.4rem;
-    width: 49%;
-    margin-bottom: 1rem;
-}
-
-#data_con .data .data_item label,
-#data_con .data .data_item p{
-    display: inline;
-}
-
-
 
 
 @media screen and (max-width: 1025px) {
@@ -176,6 +163,10 @@ a {
     .form-container form #btn {
         padding: 10px 8px;
         font-size: 0.89rem;
+    }
+
+    .form-container form .logIn {
+        font-size: 0.8rem;
     }
 
     .form-container form {
